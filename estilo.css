@@ -4,10 +4,39 @@ body{
     		background-color: hsl(300, 28%, 71%);
     		color: black;
     	}
+
+div#interface {
+	width: 1100px;
+	background-color: #FFCCFF;
+	margin: -20px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0, 0.5);
+	padding: 10px; 
+}
+
     	p{
     		text-align: justify;
     		text-indent: 50px;
     	}
+
+header#cabecalho {
+	border-bottom: 1px #606060 solid;
+}
+header#cabecalho h1 {
+	font-family: Arial, sans-serif;
+	font-size: 30pt;
+	color: #606060;
+	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
+	padding: 0px;
+	margin-bottom: 0px; 
+}
+
+header#cabecalho h2 {
+	font-family: Arial, sans-serif;
+	color: #888888;
+	font-size: 15pt;
+	padding: 0px;
+	margin-bottom: 0px; 
+}
 
  /*Formatação de imagens*/
 
@@ -31,7 +60,7 @@ body{
  	list-style: none;
  	text-transform: uppercase;
  	position: absolute;
- 	top: -20px;
+ 	top: 0px;
  	left: 800px;
  }
 
