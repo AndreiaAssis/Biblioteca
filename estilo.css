@@ -1,6 +1,13 @@
 @charset "UTF-8";
-
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Macondo');
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+@font-face {
+	font-family: 'FonteLogo' ;
+	src: url("../_fonts/bubblegum-sans-regular.otf");
+}
 body{
+			font-family: Arial, sans-serif;
     		background-color: hsl(300, 28%, 71%);
     		color: black;
     	}
@@ -18,11 +25,20 @@ div#interface {
     		text-indent: 50px;
     	}
 
+a {
+	color: #606060;
+	text-decoration: none;
+}
+
+a: hover {
+	text-decoration: underline;
+}
+
 header#cabecalho {
 	border-bottom: 1px #606060 solid;
 }
 header#cabecalho h1 {
-	font-family: Arial, sans-serif;
+	font-family: 'FonteLogo' , sans-serif;
 	font-size: 30pt;
 	color: #606060;
 	text-shadow: 1px 1px 1px rgba(0,0,0,.6);
@@ -30,10 +46,42 @@ header#cabecalho h1 {
 	margin-bottom: 0px; 
 }
 
-header#cabecalho h2 {
-	font-family: Arial, sans-serif;
+header#cabecalho h {
+	font-family: 'Titillium Web', sans-serif;
 	color: #888888;
 	font-size: 15pt;
+	padding: 0px;
+	margin-bottom: 0px; 
+}
+
+header#cabecalho2 h2 {
+	font-family: 'Macondo', cursive;
+	color: #888888;
+	font-size: 30pt;
+	padding: 0px;
+	margin-bottom: 0px; 
+}
+
+header#letras h3 {
+	font-family: 'Slabo 27px', serif;
+	color: #888888;
+	font-size: 20pt;
+	padding: 0px;
+	margin-bottom: 0px; 
+}
+
+header#letras2 h3 {
+	font-family: 'Slabo 27px', serif;
+	color: #888888;
+	font-size: 20pt;
+	padding: 0px;
+	margin-bottom: 0px; 
+}
+
+header#letras3 h3 {
+	font-family: 'Slabo 27px', serif;
+	color: #888888;
+	font-size: 20pt;
 	padding: 0px;
 	margin-bottom: 0px; 
 }
@@ -94,4 +142,25 @@ nav#menu a {
 nav#menu a:hover {
 	color: #ffffff;
 	text-decoration: underline;
+}
+
+section#corpo {
+	display: block;
+	width: 500px;
+	float: left;
+}
+
+aside#lateral {
+	display: block;
+	width: 500px;
+	float: right;
+}
+
+footer#rodape {
+	clear: both;
+	border-top: 1px solid #606060;
+}
+
+footer#rodape p {
+	text-align: center;
 }
