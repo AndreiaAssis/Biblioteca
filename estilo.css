@@ -114,7 +114,7 @@ header#letras3 h3 {
 
  nav#menu li {
  	display: inline-block;
- 	background-color: #dddddd;
+ 	background-color: #FF99FF;
  	padding: 10px;
  	margin: 2px;
  	-webkit-transition: background-color 1s;
@@ -148,6 +148,37 @@ section#corpo {
 	display: block;
 	width: 500px;
 	float: left;
+}
+
+table#tabelaspec {
+	border: 1px solid #606060;
+	border-spacing: 0px;
+	margin-left: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table#tabelaspec td {
+	border: 1px solid #606060;
+	padding: 2px;
+	vertical-align: middle;
+}
+
+table#tabelaspec td.ce {
+	color: #000000;
+	background-color: hsl(300, 28%, 66%);
+	vertical-align: top;
+	font-weight: bold;
+}
+
+table#tabelaspec td.cd {
+	background-color: hsl(300, 28%, 71%);
+}
+
+table#tabelaspec caption {
+	color: #888888;
+	font-size: 15pt;
+	font-weight: bold;
 }
 
 aside#lateral {
